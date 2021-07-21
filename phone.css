@@ -1,0 +1,55 @@
+/*Navigation*/
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a {
+    font-size: 0.5rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+/*Home secton*/
+#home{
+    height: 321px;
+    padding: 2px 1px;
+}
+#home::before{
+    height: 480px;
+}
+
+
+/*Servce secton*/
+#service{
+    
+    flex-direction: column;
+}
+#service.box{
+padding: 34px;
+margin: 2px 55px;
+border-radius: 25px;
+background: #f2f2f2;
+margin-bottom: 20px;
+
+}
+
+/*Clent Secton*/
+#clients{
+    flex-wrap: wrap;
+}
+#client img{
+    width: 66px;
+    padding: 0 6px;
+}
+
+/* Contect us secton*/
+
+/*footer*/
+
+/*utility classes*/
+.h-primary{
+    font-size: 16px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
