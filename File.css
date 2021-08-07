@@ -1,4 +1,9 @@
 /*css reset*/
+*{
+    margin: 0;
+    padding: 0;
+    
+}
 
 
 /*Css Variable*/
@@ -12,39 +17,28 @@ html{
     display: flex;
     align-items: center;
     background-color: rgb(150, 199, 153);
-    content: "";
     position: relative;
     height: 100%;
-    width: 100%;
     z-index: -1;
     opacity: 0.9;
 }
-/*Navigation Bar: Logo and Image*/
-/*#logo img{
-    height: 90px;*/
-    
-    
-}
+
 /*Navigation Bar: List Styling*/
-#navbar{
-    position: relative;
-}
-#navbar ul{
+#navbar ul {
     display: flex;
 }
-#navbar ul li{
-    
+#navbar ul li {
     list-style: none;
     font-size: 1.5rem;
 }
-#navbar ul li a{
-    color: black;
+#navbar ul li a {
+    color: rgb(20, 9, 9);
     display: block;
     padding: 3px 22px;
-    border-radius: 20px;
+    border-radius:  20px solid green;
     text-decoration: none;
 }
-#navbar ul li a:hover{
+#navbar ul li a:hover {
     color: brown;
     background-color: white;
 }
@@ -53,8 +47,8 @@ html{
  #home {
     display: flex;
     flex-direction: column;
-    padding:3px 150px;
-    height: 220px;
+    padding:0px 10px;
+    height: 100px;
     justify-content: center;
     align-items: center;   
 }
@@ -81,16 +75,20 @@ html{
      /* Services Section */
   #services{
      display: flex;
+     align-items: center;
+     position: relative;
+     
+     
 }
 #services .box {
     border: 2px solid brown;
-    padding: 30px;
+    padding: 20px;
     border-radius: 25px;
-    margin: 3px 6px;
+    margin: auto;
     background-color: lightcyan;
 }
 #services .box img{
-    height: 195px;
+    height: 120px;
     margin: auto;
     display: block;
 
@@ -175,6 +173,7 @@ html{
         padding: 5px;
         text-align: center;
         margin-top: 50px;
+        align-items: center;
     }
 
     .h-secondary{
